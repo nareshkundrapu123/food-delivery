@@ -9,4 +9,34 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Restaurantownerlogin</display-name>
+    <servlet-name>Restaurantownerlogin</servlet-name>
+    <servlet-class>food.Restaurantownerlogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Restaurantownerlogin</servlet-name>
+    <url-pattern>/Restaurantownerlogin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>RestaurantOwnerLogin</display-name>
+    <servlet-name>RestaurantOwnerLogin</servlet-name>
+    <servlet-class>food.RestaurantOwnerLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RestaurantOwnerLogin</servlet-name>
+    <url-pattern>/RestaurantOwnerLogin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>RestaurantDto</display-name>
+    <servlet-name>RestaurantDto</servlet-name>
+    <servlet-class>food.RestaurantDto</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RestaurantDto</servlet-name>
+    <url-pattern>/RestaurantDto</url-pattern>
+  </servlet-mapping>
 </web-app>
